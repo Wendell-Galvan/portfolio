@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../images/hero.jpg";
+import { Link } from "react-router-dom";
 
 function AboutMe() {
   return (
@@ -18,12 +18,9 @@ function AboutMe() {
           and am continuing to learn on my own. Since then I have developed
           fully functional applications utilizing my newfound skills. Take a
           look at some of my{" "}
-          <a
-            href="http://localhost:3000/projects"
-            className="font-bold hover:text-white"
-          >
+          <Link to="/projects" className="font-bold hover:text-white">
             projects
-          </a>
+          </Link>
         </p>
       </div>
     </div>
