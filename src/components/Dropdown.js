@@ -43,6 +43,7 @@ function Dropdown() {
                 <HashLink
                   to="/#home"
                   className="text-emerald-500 hover:text-white hover:cursor-pointer"
+                  onClick={handleClick}
                 >
                   Home
                 </HashLink>
@@ -51,8 +52,9 @@ function Dropdown() {
                   to="home"
                   smooth={true}
                   duration={500}
-                  offset={-20}
+                  offset={-50}
                   className="text-emerald-500 hover:text-white hover:cursor-pointer"
+                  onClick={handleClick}
                 >
                   Home
                 </ScrollLink>
@@ -72,6 +74,7 @@ function Dropdown() {
                 <HashLink
                   to="/#about"
                   className="text-emerald-500 hover:text-white hover:cursor-pointer"
+                  onClick={handleClick}
                 >
                   About
                 </HashLink>
@@ -81,6 +84,7 @@ function Dropdown() {
                   smooth={true}
                   duration={500}
                   className="text-emerald-500 hover:text-white hover:cursor-pointer"
+                  onClick={handleClick}
                 >
                   About
                 </ScrollLink>
@@ -91,6 +95,7 @@ function Dropdown() {
                 <HashLink
                   to="/#contact"
                   className="text-emerald-500 hover:text-white hover:cursor-pointer"
+                  onClick={handleClick}
                 >
                   Contact
                 </HashLink>
@@ -101,6 +106,7 @@ function Dropdown() {
                   offset={-100}
                   duration={500}
                   className="text-emerald-500 hover:text-white hover:cursor-pointer"
+                  onClick={handleClick}
                 >
                   Contact
                 </ScrollLink>
