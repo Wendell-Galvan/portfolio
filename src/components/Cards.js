@@ -2,7 +2,7 @@ import React from "react";
 
 function Cards(props) {
   return (
-    <div className="max-w-sm mx-10 rounded overflow-hidden shadow-lg my-20 shadow-emerald-800 bg-stone-800 hover:scale-105">
+    <div className="max-w-sm mx-10 rounded overflow-hidden shadow-lg my-20 shadow-emerald-800 bg-stone-800 transition duration-500 hover:scale-105">
       <a
         href={props.imgLink}
         target="_blank"

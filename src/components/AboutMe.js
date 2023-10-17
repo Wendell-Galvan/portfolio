@@ -11,16 +11,17 @@ function AboutMe() {
         <p>
           I am a Front End Developer specializing in <b>JavaScript</b> and{" "}
           <b>React</b>. My interest in coding began in 2015 when I designed a
-          mobile application to improve health outcomes in physical therapy
-          patients. After working in healthcare for the last 8 years, I decided
-          to pursue that interest and it quickly became a passion. In the past
-          year I have learned to code through ROOTs Technology's online progam
-          and am continuing to learn on my own. Since then I have developed
-          fully functional applications utilizing my newfound skills. Take a
-          look at some of my{" "}
+          mobile application to improve health outcomes in physical therapy.
+          After working in physical therapy the last 8 years, I decided to
+          pursue that interest and it quickly became a passion. In the past year
+          I have learned to code through ROOTs Technology's online progam and am
+          continuing to learn on my own. Since then I have developed fully
+          functional applications utilizing my newfound skills. Take a look at
+          some of my{" "}
           <Link to="/projects" className="font-bold hover:text-white">
             projects
           </Link>
+          .
         </p>
       </div>
     </div>
