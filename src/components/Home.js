@@ -21,7 +21,7 @@ function Home() {
           Hi, I'm
         </h2>
         <h1 className="font-rampart text-4xl sm:text-6xl text-emerald-700 pt-2 pb-5">
-          Wendell Galvan
+          Wendell
         </h1>
         <h2 className="font-shantell text-xl sm:text-2xl text-emerald-500">
           Front End Developer
