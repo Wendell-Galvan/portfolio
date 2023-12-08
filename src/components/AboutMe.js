@@ -7,7 +7,7 @@ function AboutMe() {
       <h1 className="flex justify-center font-rampart text-2xl mb-5 text-emerald-500">
         About Me
       </h1>
-      <div className="font-montserrat flex flex-col md:flex-row items-center p-6 md:w-2/3 bg-stone-800 shadow-lg rounded-lg overflow-hidden w-full max-w-screen-md">
+      <div className="font-montserrat flex flex-col md:flex-row items-center p-6 md:w-2/3  shadow-lg rounded-lg overflow-hidden w-full max-w-screen-md">
         <p>
           I am a Front End Developer specializing in <b>JavaScript</b> and{" "}
           <b>React</b>. My interest in coding began in 2015 when I designed a
