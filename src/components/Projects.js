@@ -3,6 +3,7 @@ import Cards from "./Cards";
 import youtube from "../images/youtube.png";
 import ski from "../images/ski-app.png";
 import news from "../images/news.png";
+import wgtraining from "../images/wgtraining.png";
 
 function Projects() {
   return (
@@ -33,6 +34,13 @@ function Projects() {
           img={news}
           paragraph="News App with search functionality and sidebar featuring popular news"
           button="https://github.com/Wendell-Galvan/hackernews-app"
+        />
+        <Cards
+          header="Personal Training Website"
+          imgLink="https://www.wendellgtraining.com/"
+          img={wgtraining}
+          paragraph="Personal Training website built with Next JS and Tailwind CSS"
+          button="https://github.com/Wendell-Galvan/wgtraining"
         />
       </div>
     </div>
